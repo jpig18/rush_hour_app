@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rush_hour_app"
+version = "1.0.0"
+description = ""
+authors = ["jpig18 <jpignato309@anselm.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
